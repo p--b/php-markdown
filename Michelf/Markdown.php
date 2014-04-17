@@ -59,9 +59,8 @@ class Markdown implements MarkdownInterface {
 	public $predef_urls = array();
 	public $predef_titles = array();
 
-    # A number of levels by which headings should be demoted.
-    public $demotion_degree = 0;
-
+	# A number of levels by which headings should be demoted.
+	public $demotion_degree = 0;
 
 	### Parser Implementation ###
 
